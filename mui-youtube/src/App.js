@@ -1,14 +1,13 @@
 import React from 'react'
+
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import {Box} from "@mui/material"
-import Feed from './Feed';
-import VideoDetails from './VideoDetails';
-import ChannelDetail from './ChannelDetail';
-import SearchFeed from './SearchFeed';
+import {Navbar,Feed,SearchFeed,VideoDetails,ChannelDetail} from './components';
+
 function App() {
   return (
     <BrowserRouter>
-    <Box sx={{ backgroungColor:"#000"}}>
+    <Box>
 <Navbar/>
 <Routes>
 
