@@ -2,10 +2,13 @@ import React from 'react'
 
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import {Box} from "@mui/material"
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <Box>Youtube</Box>
+    <Box>
+      <Navbar></Navbar>
+    </Box>
   );
 }
 
